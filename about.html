@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>promotional teflon kittenbasket: A clean and minimal website base to showcase ideas</title>
+    <meta charset="utf-8" />
+    <link href="http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="ptkb/ptkb-base.css" />
+    <link rel="stylesheet" href="ptkb/ptkb-site-sample.css" />
+    <link rel="stylesheet" href="misc/pygments-html.css" />
+  </head>
+
+  <body>
+    <div id="everything">
+
+      <div id="header">
+        <h1><a href="https://github.com/ianweller/promotional-teflon-kittenbasket"><span class="textalt">promotional teflon kittenbasket</span></a></h1>
+        <ul id="nav">
+          <li class="active"><a href="about.html">About</a></li>
+          <li><a href="https://github.com/ianweller/promotional-teflon-kittenbasket">GitHub</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+
+      <p class="lead"><strong>promotional teflon kittenbasket</strong> is a basic, minimalistic theme to help you <strong>get a jump start on your website</strong>.</p>
+
+      <div class="aside" style="width: 300px;">
+        <a href="http://commons.wikimedia.org/wiki/File:Siamesekittens.jpg"><img src="misc/kittenbasket.jpg" alt="Kittens in a basket." /></a>
+        <p class="caption">A promotional group of kittens in a basket. The basket may or may not be made of teflon.</p>
+      </div>
+      <blockquote>
+        <p>I may reuse it for my website or something.</p>
+        <cite>&mdash; <a href="http://www.melchua.com/">Mel Chua</a>, #teachingopensource</cite>
+      </blockquote>
+
+      <p>ptkb was developed by <a href="http://ianweller.org/">Ian Weller</a> of <a href="http://www.redhat.com/">Red Hat</a>&rsquo;s <a href="http://www.communityleadershipteam.org/">Community Architecture and Leadership Team</a> for their websites in May 2011. We&rsquo;re pretty certain ptkb:</p>
+      <ul>
+        <li><strong>presents content cleanly</strong> without getting in the way (and without hurting viewers&rsquo; eyes)</li>
+        <li>emphasizes <strong>already-emphasized content</strong> with subtle yellow highlights</li>
+        <li>is <strong>totally flexible</strong> for any type of design</li>
+        <li>is not known to <strong>the State of California</strong> to cause cancer</li>
+      </ul>
+
+      <p>We&rsquo;ll be working on themes for popular open-source web systems (including <a href="http://wordpress.org/">WordPress</a> and <a href="http://mediawiki.org/">MediaWiki</a>) in the very near future.</p>
+
+      <h2>Quick start</h2>
+      <p><a href="#">Download ptkb-base.css</a>, stick it somewhere accessible, and start with this page:</p>
+<pre class="highlight html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;</span>promotional teflon kittenbasket<span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">type=</span><span class="s">&quot;text/css&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;path/to/ptkb-base.css&quot;</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;path/to/your.css&quot;</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;everything&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;h2&gt;</span>Hello, world!<span class="nt">&lt;h2&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre>
+      <h3>Header</h3>
+      <p>Place this at the top of your page, inside <code>#everything</code>.
+<pre class="highlight html"><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;header&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h1&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">&quot;textalt&quot;</span><span class="nt">&gt;</span>logo alt text<span class="nt">&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;</span>
+  <span class="nt">&lt;ul</span> <span class="na">id=</span><span class="s">&quot;nav&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;active&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;1.html&quot;</span><span class="nt">&gt;</span>Page 1<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;2.html&quot;</span><span class="nt">&gt;</span>Page 2<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;/ul&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;clear&quot;</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre>
+      <h3>Footer</h3>
+      <p>Place this at the bottom of your page, inside <code>#everything</code>.
+<pre class="highlight html"><span class="nt">&lt;ul</span> <span class="na">id=</span><span class="s">&quot;footer&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li&gt;</span><span class="ni">&amp;copy;</span> 2011 Promotional Kittens Ltd.<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Another piece of footer<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</pre>
+
+      <ul id="footer">
+        <li>&copy; 2011 <a href="http://www.redhat.com/">Red Hat, Inc.</a></li>
+        <li><a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></li>
+      </ul>
+
+    </div><!-- /#everything -->
+  </body>
+  <!-- vim: set ts=2 sw=2 sta et: -->
+</html>

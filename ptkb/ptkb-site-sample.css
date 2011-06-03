@@ -1,0 +1,11 @@
+/* You'll want to set your site's logo. */
+#header h1 a {
+	background-image: url("../misc/logo.png");
+	height: 55px;
+	width: 352px;
+}
+
+/* Adjust the spacing between the header and the rest of your content as necessary. */
+#header {
+	margin-bottom: 2em;
+}

@@ -1,0 +1,293 @@
+/*!
+ * promotional teflon kittenbasket base stylesheet
+ * https://github.com/ianweller/promotional-teflon-kittenbasket
+ * Copyright (C) 2011 Red Hat, Inc.
+ * Primary maintainer: Ian Weller <iweller@redhat.com>
+ * Licensed under a Creative Commons Attribution-ShareAlike 3.0 license:
+ * http://creativecommons.org/licenses/by-sa/3.0/
+ */
+
+/* You can minify this, but leave the license statement comment above.
+ * We recommend you leave this stylesheet alone so you can upgrade it easily
+ * (remember, the C in CSS is for "cascading").
+ */
+
+/*********************************
+ *** Basic elements and styles ***
+ *********************************/
+
+/* Based loosely on:
+ * http://meyerweb.com/eric/tools/css/reset/
+ * v2.0 | 20110126
+ * License: none (public domain)
+ */
+
+/* Global styles */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background-repeat: no-repeat;
+}
+
+body {
+	line-height: 1.5;
+	width: 80%;
+	max-width: 1600px;
+	margin: 0 auto;
+	background-color: #eee;
+	font-family: "Droid Sans", sans-serif;
+	font-size: 12pt;
+}
+
+#everything {
+	background-color: white;
+	padding: 1em 2.5%;
+}
+
+/* Blockquotes and quotes */
+blockquote {
+	border-left: 0.375em solid #ddd;
+	padding-left: 0.75em;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* Lists */
+ol, ul {
+	margin: .5em 0 .5em 1.75em;
+}
+
+ul {
+	list-style: square;
+}
+
+/* Preformatted text */
+pre, code, tt {
+	font-family: monospace;
+}
+
+pre {
+	overflow: auto;
+	padding: 0.5em;
+	background-color: #222;
+	color: #eee;
+}
+
+/* Tables */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th, td {
+	border: 1px solid #bbb;
+	padding: .25em .375em;
+}
+
+th {
+	background-color: #ddd;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Links */
+a {
+	text-decoration: none;
+	color: #06c;
+	-webkit-transition: color 0.2s ease, background 0.2s ease;
+	-moz-transition: color 0.2s ease, background 0.2s ease;
+	-o-transition: color 0.2s ease, background 0.2s ease;
+	transition: color 0.2s ease, background 0.2s ease;
+}
+
+a:hover {
+	color: #39c;
+}
+
+a img {
+	border: 0;
+}
+
+/* Vertical margins */
+pre, blockquote {
+	margin: .75em 0;
+}
+
+p, table {
+	margin: .5em 0;
+}
+
+/* Headers and large text */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	line-height: 1.2;
+	margin: .75em 0 .375em;
+}
+
+.lead, .sublead {
+	line-height: 1.2;
+	margin: .75em 0 .375em;
+}
+
+h2, .lead {
+	font-size: 1.75em;
+}
+
+h3, .sublead {
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.25em;
+	margin: .8em 0 4em;
+}
+
+h5 {
+	font-size: 1.1875em;
+	margin: .8422em 0 .4211em;
+}
+
+h6 {
+	font-size: 1.0625em;
+	margin: .9412em 0 .4706em;
+}
+
+/* Basic tag styles */
+dt, cite, em {
+	font-style: italic;
+}
+
+dd { margin-left: 1.5em; }
+
+strong {
+	background-color: #ffb;
+	font-weight: bold;
+}
+
+hr {
+	border-width: 0;
+	color: #ccc;
+	background-color: #ccc;
+	height: 1px;
+	margin: 1em 0;
+}
+
+/* Base classes */
+.aside {
+	float: right;
+	margin: 0 0 1em 1em;
+	padding: .5em;
+	background-color: #eee;
+}
+
+.aside .caption {
+	font-size: 0.75em;
+	margin: 0.25em 0 0;
+}
+
+.clear {
+	clear: both;
+}
+
+abbr.small-caps {
+	font-size: .80em;
+}
+
+.center {
+	text-align: center;
+}
+
+/*** Header ***/
+#header {
+	margin-bottom: 1em;
+	padding-top: .5em;
+	position: relative;
+}
+
+#header h1 {
+	float: left;
+	margin: 0;
+}
+
+#header h1 a {
+	display: block;
+}
+
+#header .textalt {
+	position: absolute;
+	top: -9999px;
+}
+
+/* Navigation bar */
+#header #nav {
+	list-style: none;
+	margin: 0;
+	position: absolute;
+	bottom: -5px;
+	right: -7px;
+}
+
+#header #nav li {
+	float: left;
+	padding: 0 2px;
+}
+
+#header #nav li a {
+	color: #06c;
+	padding: 4px 5px;
+	text-decoration: none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#header #nav li a:hover {
+	background-color: #cee;
+}
+
+#header #nav li.active a {
+	background-color: #05b;
+	color: white;
+}
+
+#header #nav li.active a:hover {
+	background-color: #07c;
+}
+
+/*******************************
+ *** Footer and attributions ***
+ *******************************/
+#footer {
+	margin: 2.5em 0 .5em 0;
+	font-size: .75em;
+	list-style: none;
+}
+
+.clt-people #footer, .clt-events #footer {
+	margin-top: 1.75em;
+}
+
+#footer li {
+	display: inline;
+	margin-right: 1.5em;
+}
+
+#attributions {
+	margin: .5em 0;
+	font-size: .75em;
+	list-style: none;
+}
+
+#attributions li {
+	padding-left: 1.5em;
+	text-indent: -1.5em;
+}
