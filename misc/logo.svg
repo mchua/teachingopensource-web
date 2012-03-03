@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="352"
+   height="55"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="tos-site-header.svg"
+   inkscape:export-filename="/home/mchua/Dropbox/Hacks/TOS/web-redesign/tosredesign/misc/tos-site-header.png"
+   inkscape:export-xdpi="120"
+   inkscape:export-ydpi="120">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="138.4772"
+     inkscape:cy="1.1124296"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="710"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-686.85712,-387.71933)">
+    <path
+       style="opacity:0.4979424;fill:#33df16;fill-opacity:1;stroke:none"
+       d="m 809.25253,434.16779 c -3.20161,-32.58085 20.74604,-34.08592 44.94568,-28.39315 -1.65442,0.78556 -3.1734,1.64615 -4.59046,2.57135 -6.81373,4.44867 -11.27135,10.39106 -17.1017,16.6674 -6.67299,7.18344 -17.37712,8.74757 -23.25352,9.1544 z"
+       id="path3130"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssc" />
+    <path
+       style="opacity:0.4979424;fill:#33df16;fill-opacity:1;stroke:none"
+       d="m 808.45901,435.53002 c 4.99321,-32.3498 28.58175,-27.95002 50.6258,-16.51484 -10.44916,2.0701 -17.09774,7.71078 -25.80917,13.3336 -8.25388,5.32749 -19.01903,4.22454 -24.81663,3.18124 z"
+       id="path3130-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsc" />
+    <path
+       style="opacity:0.4979424;fill:#33df16;fill-opacity:1;stroke:none"
+       d="m 812.21158,434.43011 c -15.69137,-28.7672 5.76953,-39.45356 30.27776,-43.60779 -7.06314,7.93461 -8.92866,16.42649 -12.4479,26.14512 -3.3344,9.20816 -12.57834,14.80585 -17.82986,17.46267 z"
+       id="path3130-2-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsc" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3120"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Gillius ADF;-inkscape-font-specification:Gillius ADF"
+       transform="matrix(0.9774003,0,0,0.9774003,690.48337,392.86975)"><flowRegion
+         id="flowRegion3122"><rect
+           id="rect3124"
+           width="352.54324"
+           height="54.548237"
+           x="-0.50507629"
+           y="-0.053313751"
+           style="fill:#4d4d4d" /></flowRegion><flowPara
+         id="flowPara3126"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:80.00000119000000609%;writing-mode:lr-tb;text-anchor:start;font-family:Goudy Bookletter 1911;-inkscape-font-specification:'Goudy Bookletter 1911,';fill:#4d4d4d">Teaching </flowPara><flowPara
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:80.00000119000000609%;writing-mode:lr-tb;text-anchor:start;font-family:Goudy Bookletter 1911;-inkscape-font-specification:'Goudy Bookletter 1911,';fill:#4d4d4d"
+         id="flowPara3128">Open Source</flowPara></flowRoot>  </g>
+</svg>
